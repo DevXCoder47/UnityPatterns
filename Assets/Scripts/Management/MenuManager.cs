@@ -1,0 +1,22 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+namespace Management
+{
+    public class MenuManager : MonoBehaviour
+    {
+        public void OnObjectPoolButtonClick()
+        {
+            SceneManager.LoadScene("ObjectPoolScene");
+        }
+
+        public void OnExitButtonClick()
+        {
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
+        }
+    }
+}
