@@ -23,10 +23,10 @@ namespace ObjectPoolNamespace {
 
         private void Shoot()
         {
-            Projectile bullet = _projectilePool.Get();
-            bullet.transform.position = transform.position;
-            bullet.transform.rotation = transform.rotation;
-            bullet.Init(_projectilePool);
+            Projectile projectile = _projectilePool.Get();
+            projectile.transform.position = transform.position;
+            projectile.transform.rotation = transform.rotation;
+            projectile.Init(_projectilePool);
         }
     }
 }

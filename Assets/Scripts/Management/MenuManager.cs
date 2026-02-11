@@ -10,6 +10,16 @@ namespace Management
             SceneManager.LoadScene("ObjectPoolScene");
         }
 
+        public void OnEventBusButtonClick()
+        {
+            SceneManager.LoadScene("EventBusScene");
+        }
+
+        public void OnStateMachineButtonClick()
+        {
+            SceneManager.LoadScene("StateMachineScene");
+        }
+
         public void OnExitButtonClick()
         {
 #if UNITY_EDITOR
