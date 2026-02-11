@@ -20,6 +20,16 @@ namespace Management
             SceneManager.LoadScene("StateMachineScene");
         }
 
+        public void OnServiceLocatorButtonClick()
+        {
+            SceneManager.LoadScene("ServiceLocatorScene");
+        }
+
+        public void OnSingletonButtonClick()
+        {
+            SceneManager.LoadScene("SingletonScene");
+        }
+
         public void OnExitButtonClick()
         {
 #if UNITY_EDITOR

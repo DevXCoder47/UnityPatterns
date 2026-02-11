@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StateMachineScene.unity
     guid: 82cbab73e7ce7f14caaded06677688a9
+  - enabled: 1
+    path: Assets/Scenes/ServiceLocatorScene.unity
+    guid: 42dd5eeb7d98ab94a97da014adcab61c
+  - enabled: 1
+    path: Assets/Scenes/SingletonScene.unity
+    guid: 02887f6fc9b0b084d921aa1c25d140a7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0
